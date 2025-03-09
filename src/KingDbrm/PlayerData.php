@@ -2,7 +2,7 @@
 
 /*
  *
- * Copyright (C) 2022 Muqsit Rayyan KingST0v0
+ * Copyright (C) 2022 Muqsit Rayyan KingDbrm
  *  _    _   _   _      _   __________
  * | |  / / |_| | \    | | |  ________|
  * | | / /   _  |  \   | | | |
@@ -17,19 +17,18 @@
  * innovative, in case this plugin is with you,
  * Rankup Sky HAS BEEN FINISHED!
  * 
- * Author: KingST0v0
- * Discord: (KingST0v0#8823)
- * github.com/KingST0v0
+ * Author: KingDbrm
+ * Discord: (KingDbrm#8823)
+ * github.com/Ki
  * Plugin pocketmine
  * 
  */
  
- namespace KingST0v0;
+ namespace KingDbrm;
 
  use pocketmine\inventory\Inventory;
  use pocketmine\player\Player;
  use pocketmine\utils\Config;
- use ItemUtils\API;
  
  class PlayerData
  {
