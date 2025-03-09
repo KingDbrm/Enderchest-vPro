@@ -1,0 +1,25 @@
+name: EnderchestPro
+main: KingST0v0\Main
+version: v1.0-Beta
+api: [5.0.0, 4.0.0]
+
+author: KingST0v0
+description: EnderchestPro with MultiSlots! API5 or 4
+
+commands:
+  enderchest:
+    description: abra seu enderchest
+    aliases: [ec, echest]
+    permission: ec.command.use
+    
+permissions:
+  ec.command.use:
+    default: true
+  "36.echest.slots":
+    default: op
+  "45.echest.slots":
+    default: op 
+  "54.echest.slots":
+    default: op 
+  "63.echest.slots":
+    default: op
