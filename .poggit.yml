@@ -4,11 +4,5 @@ branches:
   - main
 projects:
   Enderchest-vPro:
-   libs:
-      - src: muqsit/InvMenu/InvMenu
-        branch: pm5
-        version: 4.6.5
-      - src: muqsit/customsizedinvmenu/CustomSizedInvMenu
-        branch: master
-        version: 0.0.2
+    path: ""
 ...
