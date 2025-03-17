@@ -21,10 +21,9 @@
 
  namespace KingDbrm;
  
- use muqsit\invmenu\InvMenu;
- use muqsit\customsizedinvmenu\CustomSizedInvMenu;
- use muqsit\invmenu\InvMenuHandler;
- use muqsit\invmenu\type\InvMenuTypeIds;
+ use KingDbrm\libs\muqsit\invmenu\InvMenu;
+ use KingDbrm\libs\muqsit\invmenu\InvMenuHandler;
+ use KingDbrm\libs\muqsit\invmenu\type\InvMenuTypeIds;
  use pocketmine\block\EnderChest;
  use pocketmine\command\Command;
  use pocketmine\command\CommandSender;
@@ -36,6 +35,7 @@
  use pocketmine\player\Player;
  use pocketmine\plugin\PluginBase;
  use pocketmine\utils\Config;
+ use KingDbrm\libs\muqsit\customsizedinvmenu\CustomSizedInvMenu;
  
  class Main extends PluginBase implements Listener
  {
@@ -48,6 +48,7 @@
          if (!InvMenuHandler::isRegistered()) {
              InvMenuHandler::register($this);
          }
+         CustomSizedInvMenu::
          $this->playerData = new Config($this->getDataFolder() . "playerdata.json", Config::JSON);
          $this->getServer()->getPluginManager()->registerEvents($this, $this);
      }
