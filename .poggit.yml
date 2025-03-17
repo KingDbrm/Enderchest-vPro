@@ -2,6 +2,7 @@
 build-by-default: true
 branches:
 - main
+- main-v1.2-Pro
 projects:
   Enderchest-vPro:
     path: ""
