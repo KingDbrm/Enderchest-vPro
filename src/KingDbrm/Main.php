@@ -35,7 +35,7 @@
  use pocketmine\player\Player;
  use pocketmine\plugin\PluginBase;
  use pocketmine\utils\Config;
- use window\WindowViewer;
+ use muqsit\customsizedinvmenu\CustomSizedInvMenu;
  
  class Main extends PluginBase implements Listener
  {
@@ -110,7 +110,7 @@
      public function createInvMenu(Player $player): InvMenu
      {
          $size = $this->convertPermToSize($player);
-         return $size !== 27 ? WindowViewer::create($size) : InvMenu::create(InvMenuTypeIds::TYPE_CHEST);
+         return $size !== 27 ? CustomSizedInvMenu::create($size) : InvMenu::create(InvMenuTypeIds::TYPE_CHEST);
      }
  
     public function onInteract(PlayerInteractEvent $event): void
