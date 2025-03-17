@@ -7,7 +7,7 @@ projects:
     path: ""
     libs:
       - src: muqsit/customsizedinvmenu/CustomSizedInvMenu
-        version: ^0.0.2
+        version: 0.0.2
       - src: muqsit/InvMenu/InvMenu
         version: ^4.5.3
     lint:
