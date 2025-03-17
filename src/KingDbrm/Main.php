@@ -22,6 +22,7 @@
  namespace KingDbrm;
  
  use muqsit\invmenu\InvMenu;
+ use muqsit\customsizedinvmenu\CustomSizedInvMenu;
  use muqsit\invmenu\InvMenuHandler;
  use muqsit\invmenu\type\InvMenuTypeIds;
  use pocketmine\block\EnderChest;
@@ -35,7 +36,6 @@
  use pocketmine\player\Player;
  use pocketmine\plugin\PluginBase;
  use pocketmine\utils\Config;
- use muqsit\customsizedinvmenu\CustomSizedInvMenu;
  
  class Main extends PluginBase implements Listener
  {
