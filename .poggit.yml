@@ -5,9 +5,4 @@ branches:
 projects:
   Enderchest-vPro:
     path: ""
-    libs:
-      - src: muqsit/InvMenu/InvMenu
-        version: ^4.5.3
-    lint:
-      phpstan: false
 ...
